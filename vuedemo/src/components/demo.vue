@@ -22,6 +22,7 @@
     methods: {
       ...mapMutations(['changeLogin']),
       login () {
+        let a = 0;
         let _this = this;
         if (this.loginForm.username === '' || this.loginForm.password === '') {
           alert('账号或密码不能为空');
